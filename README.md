@@ -4,6 +4,7 @@ NoFE is a modified version of BVLC caffe to support Netowrk of Experts (NoFE).
 
 <b>Network of Experts for Large-Scale Image Categorization</b><br>
 Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani <br>
+Department of Computer Science, Dartmoiuth College, USA  <br>
 <b>ECCV 2016 </b>
 
 
