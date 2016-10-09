@@ -5,7 +5,6 @@ NoFE-Caffe is a modified version of BVLC caffe to support Netowrk of Experts (No
 Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani 
 
 <b>Network of Experts for Large-Scale Image Categorization</b>
-
 ECCV 2016 
 
 
