@@ -9,7 +9,7 @@ Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani <br>
 
 
 For more information about NoFE, please refer to the NoFE project website (http://vlg.cs.dartmouth.edu/projects/nofe/).
-contact: Karim Ahmed, email: karim@cs.dartmouth.edu
+For questions about code, please contact: Karim Ahmed, email: karim@cs.dartmouth.edu
 
 
 
