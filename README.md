@@ -15,5 +15,5 @@ contact: Karim Ahmed, email: karim@cs.dartmouth.edu
 
 
 
-For general questions about Caffe, please refer to the BVLC project website for all documentation.
+For general questions about Caffe, please refer to the BVLC project website (https://github.com/BVLC/caffe) for all documentation.
 The original caffe version used in NoFE was pulled on October 21th, 2015. 
