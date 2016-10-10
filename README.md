@@ -3,7 +3,7 @@
 NoFE is a modified version of BVLC caffe to support Netowrk of Experts (NoFE). 
 
 If you use this code, please cite the following paper:<br>
-<b>``Network of Experts for Large-Scale Image Categorization"</b><br>
+<b>"Network of Experts for Large-Scale Image Categorization"</b><br>
 Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani <br>
 <b>ECCV 2016 </b>
 
