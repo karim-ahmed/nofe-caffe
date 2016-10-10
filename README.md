@@ -9,10 +9,10 @@ Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani <br>
 
 
 
-For more information about NoFE, please refer to the NoFE project website (http://vlg.cs.dartmouth.edu/projects/nofe/).
-For nofe examples, please see folder "nofe_examples".
-Trained NoFE models can be downloaded from the project website. 
-For questions about code, please contact: Karim Ahmed, email: karim@cs.dartmouth.edu
+For more information about NoFE, please refer to the NoFE project website (http://vlg.cs.dartmouth.edu/projects/nofe/).<br>
+For nofe examples, please see folder "nofe_examples".<br>
+Trained NoFE models can be downloaded from the project website. <br>
+For questions about code, please contact: Karim Ahmed, email: karim@cs.dartmouth.edu <br>
 
 
 
