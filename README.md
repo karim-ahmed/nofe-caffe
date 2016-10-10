@@ -10,6 +10,8 @@ Karim Ahmed, Mohammad Haris Baig, Lorenzo Torresani <br>
 
 
 For more information about NoFE, please refer to the NoFE project website (http://vlg.cs.dartmouth.edu/projects/nofe/).
+For nofe examples, please see folder "nofe_examples".
+Trained NoFE models can be downloaded from the project website. 
 For questions about code, please contact: Karim Ahmed, email: karim@cs.dartmouth.edu
 
 
@@ -17,4 +19,4 @@ For questions about code, please contact: Karim Ahmed, email: karim@cs.dartmouth
 
 
 For general questions about Caffe, please refer to the BVLC project website (https://github.com/BVLC/caffe) for all documentation.
-The original caffe version used in NoFE was pulled on October 21th, 2015. 
+The original caffe version used in NoFE was pulled on October 21, 2015. 
