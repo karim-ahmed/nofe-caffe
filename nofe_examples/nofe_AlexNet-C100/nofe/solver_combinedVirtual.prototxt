@@ -1,0 +1,16 @@
+net: "train_val_combinedVirtual.prototxt"
+
+## 100 (test_iter) X 100 (batch_size) = 10,000 testing images
+test_iter: 100
+
+test_interval: 1000  
+base_lr: 0.001     
+lr_policy: "fixed"
+gamma: 0.1
+display: 20
+max_iter: 60000  
+momentum: 0.9
+weight_decay: 0.004
+snapshot: 1000
+snapshot_prefix: "snapshots/caffe_combined_train"
+solver_mode: GPU

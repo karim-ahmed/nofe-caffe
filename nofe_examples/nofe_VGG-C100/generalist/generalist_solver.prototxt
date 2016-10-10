@@ -1,0 +1,25 @@
+type: "ClassClust"
+net: "models/generalist_train_val.prototxt"
+test_iter: 200 
+test_interval: 400 #(1 Epoch = 50,000/128 = 390 iters, approx~400 iters)
+base_lr: 0.01
+lr_policy: "fixed"
+gamma: 0.1
+display: 20
+max_iter: 60000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 400
+snapshot_prefix: "models/generalist_snapshots/caffe_generalist_train"
+solver_mode: GPU
+accuracy_file: "models/accuracy.txt"
+confusion_file: "models/confusion.txt"
+distribution_file: "models/distribution.txt"
+train_class_switch_file: "models/train_class_switch.txt"
+mapping_file_prefix: "models/mapping/mapping"
+num_real_labels: 100
+num_meta_labels: 10
+online_optimization_type: "FULLY_BALANCED"
+threshold_real_meta: 10 
+permute: true
+

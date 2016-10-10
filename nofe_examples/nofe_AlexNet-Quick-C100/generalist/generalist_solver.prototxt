@@ -1,0 +1,33 @@
+
+type: "ClassClust"
+net: "generalist_train_val.prototxt"
+
+## 100 (test_iter) X 100 (batch_size) = 10,000 testing images
+test_iter: 100
+
+test_interval: 1000  
+base_lr: 0.001     
+lr_policy: "fixed"
+gamma: 0.1
+display: 20
+max_iter: 4000  
+momentum: 0.9
+weight_decay: 0.004
+snapshot: 1000
+snapshot_prefix: "generalist_snapshots/caffe_generalist_train"
+solver_mode: GPU
+accuracy_file: "accuracy.txt"
+confusion_file: "confusion.txt"
+distribution_file: "distribution.txt"
+train_class_switch_file: "train_class_switch.txt"
+mapping_file_prefix: "mapping/mapping"
+num_real_labels: 100
+num_meta_labels: 10
+online_optimization_type: "FULLY_BALANCED"
+threshold_real_meta: 10 
+permute: true
+selected_test_dataset_size: 10000
+
+solver_mode: GPU
+
+
