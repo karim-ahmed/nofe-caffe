@@ -15,7 +15,6 @@
 #include <iostream>
 #include <typeinfo>
 #include <fstream>
-#include <caffe/classification.hpp>
 
 using namespace std;
 
@@ -29,7 +28,7 @@ using namespace std;
 
 #include <string>
 
-#include "caffe/proto/caffe.pb.h"
+//#include "caffe/proto/caffe.pb.h"
 #include "caffe/util/io.hpp"
 #include <caffe/caffe.hpp>
 #include <opencv2/core/core.hpp>
@@ -42,15 +41,12 @@ using namespace std;
 #include "caffe/util/io.hpp"
 #include "caffe/util/rng.hpp"
 
-using caffe::Datum;
-using caffe::BlobProto;
 using std::string;
 using std::max;
 using caffe::Blob;
 using caffe::Caffe;
 using caffe::Net;
 using caffe::Layer;
-using caffe::shared_ptr;
 using caffe::Timer;
 using caffe::vector;
 
@@ -277,7 +273,6 @@ int main(int argc, char** argv) {
 	 * Training Data.
 	 */
 	for (int i = 0; i < MAIN_REAL_TRAIN_lines.size(); i++) {
-		int line_id = MAIN_REAL_TRAIN_lines[i].first;
 		string imgName = MAIN_REAL_TRAIN_lines[i].second.first;
 		int real_class_id = MAIN_REAL_TRAIN_lines[i].second.second;
 		// get meta class
