@@ -1,9 +1,5 @@
-name: "AlexNet-Combined-Virtual"
+name: "AlexNet-Generalist"
 
-## TOTAL NUM of EXPERTS = 10 ####
-
-
-##### LMDB Virtual # map Real Class Id to Virtual Class Id #####
 
 
 layer {
@@ -17,17 +13,16 @@ layer {
   }
   transform_param {
     mirror: true
-    mean_file: "../data/cifar100_mean.binaryproto"
+    mean_file: "/home/ironfs/scratch/karim/caffe-lib/data/cifar100/cifar100_mean.binaryproto"
   }
   data_param {
-    source: "PATH_TO/train_lmdb"
+    source: "/home/ifs-users/karim/cifar100_main_real/train_lmdb"
     batch_size: 100
     backend: LMDB
-    labels_map_file: "realVirtualmapping.txt"
+    labels_map_file: "data/random10_labels_mapping.txt"
    
   }
 }
-
 
 
 layer {
