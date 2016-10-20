@@ -35,19 +35,17 @@ layer {
     phase: TEST
   }
   transform_param {
-    mirror: false
+   	mirror: false
     mean_file: "../data/cifar100_mean.binaryproto"
   }
   data_param {
-    source: "PATH_TO/test_lmdb"
+    source: "/PATH_TO_Data/train_lmdb_copy"  ## if testing on training data (in Generalist only), use another copy of lmdb as lock created on the first training lmdb
     batch_size: 100
     backend: LMDB
-    labels_map_file: "realVirtualmapping.txt"
+    labels_map_file: "../data/random10_labels_mapping.txt"
    
   }
 }
-
-
 
 
 # Silence label only in TRAIN phase, because its not used.
