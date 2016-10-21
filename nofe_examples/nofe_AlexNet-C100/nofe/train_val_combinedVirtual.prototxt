@@ -18,6 +18,7 @@ layer {
   transform_param {
 
     mean_file: "../data/cifar100_mean.binaryproto"
+    mirror: true
   }
   data_param {
     source: "/PATH_TO/train_lmdb"
