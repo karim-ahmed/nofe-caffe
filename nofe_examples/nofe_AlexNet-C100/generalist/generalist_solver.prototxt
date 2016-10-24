@@ -22,5 +22,4 @@ num_meta_labels: 10
 online_optimization_type: "FULLY_BALANCED"
 threshold_real_meta: 10 
 permute: true
-selected_test_dataset_size: 10000
 
